@@ -2,11 +2,14 @@
 #include <iostream>
 using namespace std;
 
-class Solution
+int main()
 {
-public:
-    int myAtoi(string s)
-    {
-        for (int i = 0;)
-    }
-};
+    string s = "hello";
+    if (s.length())
+        cout << "s is not empty" << endl;
+    else
+        cout << "s is empty" << endl;
+
+    cout << s[0] << endl;
+    return 0;
+}
